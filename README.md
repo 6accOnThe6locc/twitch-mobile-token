@@ -1,6 +1,6 @@
 ## How to generate a token with mobile client_id (kd1unb4b3q4t58fwlpcbzcbnm76a8fp)
 
-Antes de tudo defina as variaveis do script [login.py]()
+First of all define the script variables [login.py]()
 
 Open Twitch login page in incognito tab **[here](https://www.twitch.tv/login)** then open the [DevTools](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools) 
 
