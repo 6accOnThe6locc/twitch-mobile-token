@@ -9,7 +9,7 @@ from selenium.webdriver.common.by import By
 EXECUTABLE_PATH = 'PASTE CHROME DRIVER PATH HERE'   # https://chromedriver.chromium.org/downloads
 USERNAME = str(input('Username: ')).strip()
 PASSWORD = str(input('Password: ')).strip()
-
+CLIENT_ID = 'kd1unb4b3q4t58fwlpcbzcbnm76a8fp'
 
 def get_chrome_options() -> ChromeOptions():
     options = ChromeOptions()
@@ -29,7 +29,7 @@ def interceptor(request) -> str:
     ):
         body = request.body.decode('utf-8')
         data = json.loads(body)
-        data['client_id'] = 'kd1unb4b3q4t58fwlpcbzcbnm76a8fp'
+        data['client_id'] = CLIENT_ID
         request.body = json.dumps(data).encode('utf-8')
         del request.headers['Content-Length']
         request.headers['Content-Length'] = str(len(request.body))
