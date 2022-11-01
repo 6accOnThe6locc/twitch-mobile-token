@@ -13,7 +13,7 @@ EXECUTABLE_PATH = ''   # https://chromedriver.chromium.org/downloads
 USERNAME = str(input('Username: ')).strip()
 PASSWORD = str(input('Password: ')).strip()
 CLIENT_ID = 'kd1unb4b3q4t58fwlpcbzcbnm76a8fp'
-HEADLESS = True
+HEADLESS = False
 
 
 def get_chrome_options() -> ChromeOptions():
