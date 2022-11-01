@@ -1,7 +1,8 @@
 # Twitch: Simple script to get token with any Client Id
 
 After many Twitch Miner users saying that the login method didn't work I implemented this method using [selenium-wire](https://pypi.org/project/selenium-wire/).
-(headless mode not working [read more](https://github.com/ultrafunkamsterdam/undetected-chromedriver/issues/589))
+
+Note: Headless mode not working [read more](https://github.com/ultrafunkamsterdam/undetected-chromedriver/issues/589)
 
 # How to use
 You will need [Chrome](https://www.google.com/chrome/) installed on your computer and download [Chrome WebDriver](https://chromedriver.chromium.org/downloads), both must be in the same version. 
