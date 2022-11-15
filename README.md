@@ -1,4 +1,4 @@
-# Twitch: Simple script to get token with any Client Id
+# Twitch: Simple script to get token with any Client Id; Update (15/11/2022) (working)
 
 After many Twitch Miner users saying that the login method didn't work I implemented this method using [selenium-wire](https://pypi.org/project/selenium-wire/).
 
